@@ -1,0 +1,35 @@
+/* This is a CSS file */
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.recipes {
+    text-align: center;
+}
+
+.recipes .recipeLink {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.texts {
+    color: white;
+}
+
+img {
+    display: block;
+    width: 800px;
+    height: 450px;
+    border-radius: 30px;
+    margin: auto;
+}
