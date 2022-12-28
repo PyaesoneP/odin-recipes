@@ -3,15 +3,27 @@ body {
     background-color: black;
 }
 
-h1 {
-    color: white;
-    background-color: black;
-    padding: 30px;
-    text-align: center;
+header {
+    background-color: grey;
+    height: 70px;
+    border-radius: 10px;
+    color: rgb(40, 40, 40);
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.recipes {
+h1 {
+    display: block;
     text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.recipes {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
 }
 
 .recipes .recipeLink {
@@ -20,6 +32,9 @@ h1 {
     color: black;
     padding: 30px;
     border-radius: 10px;
+}
+.recipeLink:hover {
+    padding: 50px;
 }
 
 .texts {
